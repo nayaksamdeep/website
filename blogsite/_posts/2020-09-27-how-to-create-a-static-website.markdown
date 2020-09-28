@@ -13,9 +13,7 @@ are also used for single page web applications. 
 In my example to create a static website, I am using Jekyll for the
 static blogging platform, AWS for the hosting infra and GitHub for
 version control. However if you are serious about blogging, I suggest
-you read
-[[this]{.ul}](https://www.bloggingbasics101.com/how-do-i-start-a-blog/)
-before considering jekyll
+you go through [this site][blogging-basics] before considering jekyll
 
 **How to create a static website**
 
@@ -31,7 +29,7 @@ You will need the following
 
 **Step 1 - Set up your Development Environment**
 
-[Install jekyll]{.ul}
+*Install jekyll*
 
 *Commands*
 
@@ -42,10 +40,9 @@ You will need the following
 *Commands*
 
 -   *git clone
-    [[https://github.com/]{.ul}](https://github.com/)\<replace with you
-    github account\>/\<repository name\>*
+    https://github.com/)\<replace with your github account\>/\<repository name\>*
 
-[Build a default Website]{.ul}
+*Build a default Website*
 
 *Commands*
 
@@ -68,8 +65,7 @@ the blog. We will cover this in detail in the later sections
 
 Jekyll supports multiple **themes**. I am using the minima which is the
 default theme. Pls refer to the
-[[tutorials]{.ul}](https://jekyllrb.com/tutorials/video-walkthroughs/)
-for using alternate themes in your blog
+[tutorials][tutorial-link] for using alternate themes in your blog
 
 The main entry point is called \_**config.yml** You can edit title,
 description and other details to reflect your blog
@@ -91,8 +87,7 @@ format used in the file.
 
 If you are not comfortable editing the markdown on your computer, there
 are plenty of tools available. Alternatively, you can write your blog as
-a doc and convert it into markdown using
-[[pandoc]{.ul}](https://pandoc.org/)
+a doc and convert it into markdown using [pandoc tool][pandoc-tool]
 
 **Step 4 - Review the Blog Post and Check-In the Code**
 
@@ -105,22 +100,25 @@ Now, run git add, commit and push to check-in your new blog site
 
 **Step 5 - Upload the files into S3 and test**
 
-[Create a S3 bucket]{.ul}
+*Create a S3 bucket*
 
 It is a good practice to name your S3 bucket the same as your site name.
 We will cover details of creating your own domain in the next blog
 
-[Configure S3 bucket]{.ul}
+*Configure S3 bucket*
 
 Configure S3 bucket to be used for static website
 
 By default, the S3 bucket contents are private. Pls go ahead and make
 the contents of this bucket public
 
-[Upload blogs to S3 bucket]{.ul}
+*Upload blogs to S3 bucket*
 
 Now upload all the contents in the \_site directory into the S3 bucket.
 Once this is successful, you should be able to view your blog by
 accessing S3 URL
 
 
+[blogging-basics]: https://www.bloggingbasics101.com/how-do-i-start-a-blog
+[tutorial-link]: https://jekyllrb.com/tutorials/video-walkthroughs
+[pandoc-tool]: https://pandoc.org
