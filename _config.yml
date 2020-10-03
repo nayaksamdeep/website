@@ -22,7 +22,7 @@ title: Samdeep Nayak
 # email: <firstname>.<lastname>[at]gmail
 description: >- # this means to ignore newlines until "baseurl:"
   Samdeep Nayak is an engineering leader at VMware. After working
-  in the Bay Area for about 16 years, he moved to Bangalore in 2016 and calls his home now.
+  in the Bay Area for about 16 years, he moved to Bangalore in 2016 and calls it as his home now.
   He is happy to share his experiences or provide any feedback to aspiring leaders.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
