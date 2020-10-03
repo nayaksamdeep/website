@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to host a website on AWS"
-date:   2020-09-27 00:36:19 +0530
+date:   2020-10-04 00:36:19 +0530
 categories: aws ci/cd 
 permalink: /blogs/
 ---
