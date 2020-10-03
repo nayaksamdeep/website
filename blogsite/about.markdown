@@ -8,7 +8,7 @@ Hi Folks,
 
 Welcome to my virtual home
 
-I have lived in India and US for most part of my adult life. I call Bangalore, Sunnyvale and Kumta as home.
+I have lived in India and US for most part of my adult life. I call Bangalore, Sunnyvale and Kumta as home now.
 
 Professionally, I have spent most of my time in Systems Software. I have covered Networking, Storage, Virtualization, Security, Cloud and AI/ML during the span of years. I have 25 Approved and Pending Patents in this domain
 
