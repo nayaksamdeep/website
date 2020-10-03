@@ -6,6 +6,8 @@ phases:
       - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
   build:
     commands:
+      - echo "******** cd to blogsite directory ********"
+      - cd blogsite
       - echo "******** Building Jekyll site ********"
       - jekyll build
       - echo "******** Uploading to S3 ********"

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-03T22:07:32+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Samdeep Nayak</title><subtitle>Samdeep Nayak is an engineering leader at VMware. After working in the Bay Area for about 16 years, he moved to Bangalore in 2016 and calls his home now. He is happy to share his experiences or provide any feedback to aspiring leaders.</subtitle><entry><title type="html">How to create a static website</title><link href="http://localhost:4000/blogs/" rel="alternate" type="text/html" title="How to create a static website" /><published>2020-09-27T00:36:19+05:30</published><updated>2020-09-27T00:36:19+05:30</updated><id>http://localhost:4000/how-to-create-a-static-website</id><content type="html" xml:base="http://localhost:4000/blogs/">&lt;p&gt;A static website is one that hosts pages that are not editable. By
+contrast, a dynamic website has a server side component and is
+interactive. While blogs are a common use case for static websites, they
+are also used for single page web applications. &lt;/p&gt;
+
+&lt;p&gt;In my example to create a static website, I am using Jekyll for the
+static blogging platform, AWS for the hosting infra and GitHub for
+version control. However if you are serious about blogging, I suggest
+you go through &lt;a href=&quot;https://www.bloggingbasics101.com/how-do-i-start-a-blog&quot;&gt;this site&lt;/a&gt; before considering jekyll&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to create a static website&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 0 - Before you start&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You will need the following&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;AWS Account&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Github Account&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Computer (Mac in my case) with git and ruby installed&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1 - Set up your Development Environment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Install jekyll&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Commands&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;gem install jekyll&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[Create a new repository for the website in github and clone it]{.ul}&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Commands&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;git clone
+https://github.com/)&amp;lt;replace with your github account&amp;gt;/&amp;lt;repository name&amp;gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Build a default Website&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Commands&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;jekyll new my-jekyll-site&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;cd my-jekyll-site&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;jekyll serve&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You should be able to point to port 4000 on your localhost and view the
+blogging site that you just created&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2 - Understanding Jekyll&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When you run the jekyll command, the blog site bits are stored under the
+&lt;strong&gt;_site&lt;/strong&gt; directory.&lt;/p&gt;
+
+&lt;p&gt;You can copy the contents of &lt;strong&gt;_site&lt;/strong&gt; to your target system and render
+the blog. We will cover this in detail in the later sections&lt;/p&gt;
+
+&lt;p&gt;Jekyll supports multiple &lt;strong&gt;themes&lt;/strong&gt;. I am using the minima which is the
+default theme. Pls refer to the
+&lt;a href=&quot;https://jekyllrb.com/tutorials/video-walkthroughs&quot;&gt;tutorials&lt;/a&gt; for using alternate themes in your blog&lt;/p&gt;
+
+&lt;p&gt;The main entry point is called _&lt;strong&gt;config.yml&lt;/strong&gt; You can edit title,
+description and other details to reflect your blog&lt;/p&gt;
+
+&lt;p&gt;For each of the markdown, you can provide details such as &lt;strong&gt;layout&lt;/strong&gt;
+(home, page or posts), &lt;strong&gt;permalink&lt;/strong&gt; (the way you want the URL to
+appear), &lt;strong&gt;categories&lt;/strong&gt; (keywords associated)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3 - Creating a Jekyll Blog Post&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The blogs are created under the &lt;strong&gt;_posts&lt;/strong&gt; directory. Jekyll requires
+blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;`&lt;strong&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/strong&gt;`&lt;/p&gt;
+
+&lt;p&gt;Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both
+two-digit numbers, and `MARKUP` is the file extension representing the
+format used in the file.&lt;/p&gt;
+
+&lt;p&gt;If you are not comfortable editing the markdown on your computer, there
+are plenty of tools available. Alternatively, you can write your blog as
+a doc and convert it into markdown using &lt;a href=&quot;https://pandoc.org&quot;&gt;pandoc tool&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 4 - Review the Blog Post and Check-In the Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can review the blog as it appears by running the command &lt;strong&gt;&lt;em&gt;jekyll
+serve&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can view the contents at Port 4000 through your browser&lt;/p&gt;
+
+&lt;p&gt;Now, run git add, commit and push to check-in your new blog site&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 5 - Upload the files into S3 and test&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Create a S3 bucket&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It is a good practice to name your S3 bucket the same as your site name.
+We will cover details of creating your own domain in the next blog&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Configure S3 bucket&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Configure S3 bucket to be used for static website&lt;/p&gt;
+
+&lt;p&gt;By default, the S3 bucket contents are private. Pls go ahead and make
+the contents of this bucket public&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Upload blogs to S3 bucket&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now upload all the contents in the _site directory into the S3 bucket.
+Once this is successful, you should be able to view your blog by
+accessing S3 URL&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="staticsite" /><summary type="html">A static website is one that hosts pages that are not editable. By contrast, a dynamic website has a server side component and is interactive. While blogs are a common use case for static websites, they are also used for single page web applications. </summary></entry></feed>
