@@ -3,7 +3,6 @@ layout: post
 title:  "How to create a static website"
 date:   2020-09-27 00:36:19 +0530
 categories: jekyll staticsite 
-permalink: /blogs/
 ---
 A static website is one that hosts pages that are not editable. By
 contrast, a dynamic website has a server side component and is

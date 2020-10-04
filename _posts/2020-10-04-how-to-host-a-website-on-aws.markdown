@@ -3,7 +3,6 @@ layout: post
 title:  "How to host a website on AWS"
 date:   2020-10-04 00:36:19 +0530
 categories: aws ci/cd 
-permalink: /blogs/
 ---
 In my previous blog, we covered the steps involved in creating the
 content for the static website. In this blog, we will go through the
