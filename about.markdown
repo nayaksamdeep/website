@@ -14,7 +14,7 @@ Professionally, I have spent most of my time in Systems Software. I have covered
 
 In early 2016, I decided to move back to India. I do get a lot of questions about the move, life in Bangalore as compared to the US, building teams in India and things to watch out for. I hope to cover them in the next set of blogs
 
-Always excited to hear from folks, please do drop a note
+Always excited to hear from folks, please do drop me a note on linkedin
 
 Sam
 
