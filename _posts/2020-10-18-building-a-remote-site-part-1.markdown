@@ -148,7 +148,39 @@ customer requests and fixing the issues. Think of it as the modern
 version of service engineering that leverages telemetry to fix your car
 and keep it running without you even noticing it. 
 
+**Stages of Team Development**
+=========================================
+
+It takes effort to build the right team. Here are the stages as referred by
+Bruce Wayne Tuckman. This assume the product has a market acceptance and 
+teams are not pivoting any more 
+
+**Forming**
+At this stage, individuals are trying to get to know each other and the org.
+A leader can help by settitng up team building activities help gel in with the team. 
+Assuming a new team, it will be good for the team to get hands on experience 
+say by fixing bugs, documenting architecture etc.
+
+**Storming**
+This is a rocky stage. A lot of questions about the team identity will come up. 
+The leader should lay out the vision for the team and communicate it often with 
+the team. A team that works together stays together So start the team owning
+the modules. Try to pair up a senior engineer with juniors
+
+**Norming**
+This stage is when the team starts to gel together. The team is ready to own up
+a service or a particular feature. The leader should be able to convince people
+that the team has reached the prime stage of expertise and can do magic
+
+**Performing**
+The team is well performing towards the goals. The leader can start delegating
+to the team and groom next set of leaders
+
+**Move the work and not the team**
+It takes effort to build the team. So don't move the team members to work on 
+random things. If the team is in a cruise control mode, move new work to the 
+instead
+
 In the next blog, I will discuss why the desired state cannot be
 achieved on day zero at a remote site and how to go about fixing them
-
 
