@@ -40,6 +40,17 @@ particular organization
     but learn to **work your schedules around it**. You need to build
     bridges with your **network** to get all the information.
 
+
+-   **Uncertainity**. During the early stages, there several uncertainities
+    faced by the org. You will have the joys of customer wins. Similarly
+    some days are extremely bad with product falling apart or asks for new
+    features within a short time frame (read countless war rooms) While
+    uncertainities are not unique to a remote site, it only magnifies 10X
+    Open Communication with the team is helpful. You will also be making
+    countless decissions on a day 2 day basis. Some of them will go wrong
+    but dont kill yourself for the wrongs
+    
+
 **What to expect during the first 18 months**
 --------------------
 
@@ -186,3 +197,40 @@ that help them **increase their revenue** and **seamlessly integrate**
 within their existing set up. So focus more on building capabilities
 that helps the customers increase revenues and does not require them to
 rip and replace their existing environments.  
+
+
+**Right Architecture**
+=================
+
+It is known fact that products evolve in a startup. So **migrations**
+should be considered part of life. However wrong choices made during
+the software architecture will have lasting pains for the team. While 
+it is OK to go with monolith with SOA before you transition to micro services
+care must be taken to ensure the architecture is solid.
+
+Few things to consider
+- How **experienced** is the team building such solution? If the answer is this is
+their first time coding such service, you may have a problem. Make sure you have
+people that you gone through the experience building something similar
+- Are you building on something new **shiny but unproven** product by another startup? 
+I had experienced disaster at a startup trying to build on a new network processor
+ that was not proven. Pls dont mix 2 unknown things given your business is at stake
+- Do you have people that have **deep expertise** in their domain/industry. Lacking 
+such expertise will result in software being written to meet all needs and 
+and using shiny technologies not required for the use case. Dont build a bloatware
+
+
+**Team Building Activities**
+============================
+
+As you are hiring aggressively, you will also need to ensure the team comes together. 
+Lunches and Outtings are all great, but I found success with team building that involves
+volunteering for local **community causes**.  It helps build the right culture 
+of caring for your community while building bonds with your team. 
+
+**Caring for Self**
+===================
+
+The first 18 months can be very much intimidating. You may sometimes question the choices
+you may have made. But do realize that it is a job and let it not impact your family life.
+You need to **pace** yourself and do not run after unrealistic goals. 
