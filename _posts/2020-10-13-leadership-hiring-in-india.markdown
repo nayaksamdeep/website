@@ -68,7 +68,6 @@ and do reach out to them at a later time for a different position.
 While selling the job, Learning, Earning and Impact of the Role can attract 
 Junior, Mid and Senior Candidates.
 
-Focus on Ownership examples, Continuous Learning and Customer Focus for senior
-roles. We are in a world where things move quickly. So Continuous Learning 
-is critical to figure out the openness of the individual to move to a new domain.
+During the interview, focus on examples of ownership, Continuous Learning and 
+Customer Focus for senior roles. I found them to be useful in our hiring.
 
