@@ -62,3 +62,13 @@ the candidates after they accept the offer. Also, do not get
 disheartened if the offer is rejected. Do connect with them on LinkedIn
 and do reach out to them at a later time for a different position.
 
+
+**My Take Aways**
+
+While selling the job, Learning, Earning and Impact of the Role can attract 
+Junior, Mid and Senior Candidates.
+
+Focus on Ownership examples, Continuous Learning and Customer Focus for senior
+roles. We are in a world where things move quickly. So Continuous Learning 
+is critical to figure out the openness of the individual to move to a new domain.
+
